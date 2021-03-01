@@ -2,30 +2,30 @@ part of values;
 
 class StringConst {
   //strings
-  static const String APP_NAME = "FoodyByte";
+  static const String APP_NAME = "Umut Butonu";
 
-  static const String FOODY_BITE = "Foodybite";
-  static const String FORGOT_PASSWORD_QUESTION = "Forgot Password?";
-  static const String HAVE_AN_ACCOUNT_QUESTION = "Already have an account?";
-  static const String FORGOT_PASSWORD = "Forgot Password";
+  static const String FOODY_BITE = "Umut Butonu";
+  static const String FORGOT_PASSWORD_QUESTION = "Şifrenizi mi unuttunuz?";
+  static const String HAVE_AN_ACCOUNT_QUESTION = "Zaten hesabınız var mı?";
+  static const String FORGOT_PASSWORD = "Şifremi unuttum.";
   static const String RESET_PASSWORD_DESCRIPTION =
-      "Enter your email and we will sendyou instructions on how to reset it";
+      "E posta adresinizi girinve posta kutunuza gelen yönergeleri takip edin.";
 
-  static const String HINT_TEXT_NAME = "Name";
-  static const String HINT_TEXT_EMAIL = "Email";
-  static const String HINT_TEXT_PASSWORD = "Password";
-  static const String HINT_TEXT_CONFIRM_PASSWORD = "Confirm Password";
+  static const String HINT_TEXT_NAME = "İsim";
+  static const String HINT_TEXT_EMAIL = "E-posta";
+  static const String HINT_TEXT_PASSWORD = "Şifre";
+  static const String HINT_TEXT_CONFIRM_PASSWORD = "Şifre onayı";
   static const String HINT_TEXT_HOME_SEARCH_BAR = "Find Restaurants";
-  static const String HINT_TEXT_TRENDING_SEARCH_BAR = "Search";
-  static const String LOGIN = "Login";
-  static const String SKIP = "Skip";
-  static const String REGISTER = "Register";
-  static const String TURN_GPS = "Turn On GPS";
+    static const String HINT_TEXT_TRENDING_SEARCH_BAR = "Ara";
+  static const String LOGIN = "Giriş Yap";
+  static const String SKIP = "Atla";
+  static const String REGISTER = "Kayıt Ol";
+  static const String TURN_GPS = "Konum Bilgisini Aç";
   static const String TURN_GPS_DESCRIPTION =
-      "Please turn on your GPS to find out better restaurant suggestionsnear you.";
-  static const String HELLO_MESSAGE = "Hi David,";
-  static const String WELCOME_MESSAGE = "Welcome to";
-  static const String SEND = "Send";
+      "Lütfen konum bilginizi açık tutun.Acil durumda size ulaşmamız daha kolay olsun.";
+  static const String HELLO_MESSAGE = "Merhabalar,";
+  static const String WELCOME_MESSAGE = "uygulamasına hoş geldiniz.";
+  static const String SEND = "Gönder";
   static const String TRENDING_RESTAURANTS = "Trending Restaurants";
   static const String CATEGORY = "Category";
   static const String FRIENDS = "Friends";
@@ -36,7 +36,7 @@ class StringConst {
   static const String SEE_ALL_45 = "See all (45)";
   static const String SEE_ALL_9 = "See all (9)";
   static const String SEE_ALL_56 = "See all (56)";
-  static const String CREATE_NEW_ACCOUNT = "Create New Account";
+  static const String CREATE_NEW_ACCOUNT = "Hesap Oluştur";
   static const String STATUS_OPEN = "OPEN";
   static const String STATUS_CLOSE = "CLOSE";
 

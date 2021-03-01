@@ -54,14 +54,15 @@ class SetLocationScreen extends StatelessWidget {
                           text: TextSpan(
                             style: Styles.customTitleTextStyle(
                               fontSize: Sizes.TEXT_SIZE_32,
+                              color: AppColors.kFoodyBiteYellow,
                             ),
                             children: [
-                              TextSpan(text: StringConst.WELCOME_MESSAGE + " "),
+                              TextSpan(text: StringConst.FOODY_BITE + " "),
                               TextSpan(
-                                text: StringConst.FOODY_BITE,
+                                text: StringConst.WELCOME_MESSAGE,
                                 style: Styles.customTitleTextStyle(
                                   fontSize: Sizes.TEXT_SIZE_32,
-                                  color: AppColors.kFoodyBiteYellow,
+
                                 ),
                               ),
                             ],

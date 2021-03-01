@@ -131,7 +131,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                               StringConst.LOGIN,
                               textAlign: TextAlign.left,
                               style: Styles.customNormalTextStyle(
-                                color: AppColors.secondaryElement,
+                                color: AppColors.secondaryText,
                               ),
                             ),
                           ),

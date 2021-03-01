@@ -89,7 +89,7 @@ class _SplashScreenState extends State<SplashScreen>
           AnimatedBuilder(
             animation: _imageController,
             child: Image.asset(
-              ImagePath.splashImage,
+              ImagePath.boiledEggs,
               height: MediaQuery.of(context).size.height,
               width: MediaQuery.of(context).size.width,
               fit: BoxFit.cover,
@@ -109,9 +109,9 @@ class _SplashScreenState extends State<SplashScreen>
                   child: AnimatedBuilder(
                     animation: _textController,
                     child: Text(
-                      'FoodyBite',
+                      'Umut Butonu',
                       style: Styles.customTitleTextStyle(
-                        color: AppColors.primaryText,
+                        color: AppColors.secondaryText,
                       ),
                     ),
                     builder: (context, child) => Transform.scale(
